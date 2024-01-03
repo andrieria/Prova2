@@ -3,5 +3,5 @@ CREATE TABLE paciente (
     id INT AUTO_INCREMENT PRIMARY KEY, 
     nome VARCHAR(300),
     cpf VARCHAR (14),
-    historicoMedico VARCHAR(800)
+    historico_medico VARCHAR(800)
 );

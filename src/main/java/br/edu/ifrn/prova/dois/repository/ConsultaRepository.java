@@ -7,5 +7,7 @@ import br.edu.ifrn.prova.dois.model.Consulta;
 
 @Repository
 public interface ConsultaRepository extends JpaRepository<Consulta, Long>{
+
+    Object getConsultaById(Long id);
     
 }
